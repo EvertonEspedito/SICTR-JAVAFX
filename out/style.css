@@ -1,0 +1,99 @@
+/* ===============================
+   ESTILO GLOBAL
+   =============================== */
+
+.root {
+    -fx-font-family: "Segoe UI", "Inter", Arial;
+    -fx-background-color: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+}
+
+/* ===============================
+   CAMPO DE TEXTO
+   =============================== */
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #90caf9;
+    -fx-background-color: white;
+}
+
+.text-field:focused {
+    -fx-border-color: #2196f3;
+}
+
+/* ===============================
+   BOTÃO
+   =============================== */
+
+.button {
+    -fx-background-color: linear-gradient(to right, #2196f3, #1e88e5);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #1e88e5, #1976d2);
+}
+
+.button:pressed {
+    -fx-background-color: #1565c0;
+}
+
+/* ===============================
+   ÁREA DE TEXTO
+   =============================== */
+
+.text-area {
+    -fx-font-size: 13px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #bbdefb;
+    -fx-control-inner-background: #ffffff;
+}
+
+.text-area .content {
+    -fx-padding: 12px;
+}
+
+/* ===============================
+   SCROLL BAR (opcional)
+   =============================== */
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #90caf9;
+    -fx-background-radius: 10;
+}
+
+/* ===============================
+   ÍCONE DO CLIMA
+   =============================== */
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 8, 0, 0, 2);
+}
+
+/* ===============================
+   ANIMAÇÃO VISUAL (Loading)
+   =============================== */
+
+.label-loading {
+    -fx-text-fill: #1976d2;
+    -fx-font-style: italic;
+}
+
+
+/* ===============================
+   LOADER
+   =============================== */
+
+.progress-indicator {
+    -fx-progress-color: #1e88e5;
+}
+
